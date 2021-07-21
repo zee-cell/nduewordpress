@@ -1,6 +1,6 @@
-/* 
-Theme name: ndue's
-author : ndumiso
-site: ndu.co.za
 
- */
+<?php
+// This is a single-line comment
+
+# This is also a single-line comment
+?>
