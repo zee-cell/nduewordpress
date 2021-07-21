@@ -80,10 +80,10 @@
           <div class="col-lg-6 ml-auto"  data-aos="fade-up" data-aos-delay="100">
                         
             <div class="owl-carousel slide-one-item-alt">
-              <img src="/static/images/vregga.ad9ac3c0ad00.jpg" alt="Image" class="img-fluid">
-              <img src="/static/images/sandile.f8cb614ff6a3.png" alt="Image" class="img-fluid">
-              <img src="/static/images/khux1.f3fc60df1172.jpg" alt="Image" class="img-fluid">
-              <img src="/static/images/img_1.c182ef4f8ea8.png" alt="Image" class="img-fluid">
+              <img src="/images/vregga.jpg" alt="Image" class="img-fluid">
+              <img src="/images/sandile.png" alt="Image" class="img-fluid">
+              <img src="/images/khux1.jpg" alt="Image" class="img-fluid">
+              <img src="/images/img_1.png" alt="Image" class="img-fluid">
             </div>
 
             <div class="owl-custom-direction">
@@ -132,7 +132,7 @@
                 <p>Lerato Nursing Agency is a health care recruitment and placement agency whose aim is to provide our clients with experienced and qualified staff </p>
                 <p class="mb-0">Visit <a href="#" class="text-danger">Lerato.co.za</a></p>
               </div>
-              <img src="/static/images/img_1.c182ef4f8ea8.png" alt="Image" class="img-fluid">
+              <img src="/images/img_1.png" alt="Image" class="img-fluid">
             </div>
           </div>
         </div>
@@ -156,44 +156,44 @@
         
       <div class="owl-carousel nonloop-block-13">
 
-          <a class="work-thumb" href="/static/images/lerato2.12ff49f9aeec.png" data-fancybox="gallery">
+          <a class="work-thumb" href="/images/lerato2.png" data-fancybox="gallery">
             <div class="work-text">
               <h3>Lerato</h3>
               <span class="category">Website</span>
             </div>
-            <img src="/static/images/img_1.c182ef4f8ea8.png" alt="Image" class="img-fluid">
+            <img src="/images/img_1.png" alt="Image" class="img-fluid">
           </a> 
           
-          <a class="work-thumb" href="/static/images/sandile2.d9eedd03b37e.jpg" data-fancybox="gallery">
+          <a class="work-thumb" href="/images/sandile2.jpg" data-fancybox="gallery">
             <div class="work-text">
               <h3>Sandile </h3>
               <span class="category">Website</span>
             </div>
-            <img src="/static/images/sandile.f8cb614ff6a3.png" alt="Image" class="img-fluid">
+            <img src="/images/sandile.png" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="/static/images/sandile3.0eda35e4cdcf.png" data-fancybox="gallery">
+          <a class="work-thumb" href="/images/sandile3.png" data-fancybox="gallery">
             <div class="work-text">
               <h3>Vregga</h3>
               <span class="category">Website & hosting</span>
             </div>
-            <img src="/static/images/vregga.ad9ac3c0ad00.jpg" alt="Image" class="img-fluid">
+            <img src="/images/vregga.jpg" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="/static/images/khux3.4c051d17f8d0.jpg" data-fancybox="gallery">
+          <a class="work-thumb" href="/images/khux3.jpg" data-fancybox="gallery">
             <div class="work-text">
               <h3>Khuxxman</h3>
               <span class="category">Web Development</span>
             </div>
-            <img src="/static/images/khux1.f3fc60df1172.jpg" alt="Image" class="img-fluid">
+            <img src="/images/khux1.jpg" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="/static/images/vusi.499fa3eaad9c.png" data-fancybox="gallery">
+          <a class="work-thumb" href="/images/vusi.png" data-fancybox="gallery">
             <div class="work-text">
               <h3>Vusi Mhlanga</h3>
               <span class="category">Design & hosting</span>
             </div>
-            <img src="/static/images/vusi.499fa3eaad9c.png" alt="Image" class="img-fluid">
+            <img src="/images/vusi.png" alt="Image" class="img-fluid">
           </a>
       </div>
     </div>
@@ -328,7 +328,7 @@
 
         <div class="row align-items-center">
           <div class="col-md-5 order-1 order-md-2 mb-5 mb-md-0">
-            <img src="/static/images/about_1.99b6089e46e6.jpg" alt="Image" class="img-fluid">
+            <img src="/images/about_1.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-6 mr-auto order-2 order-md-1">
             
@@ -336,7 +336,7 @@
             <p class="mb-5">I would love to answer any questions you may have about my web design services to help you make your decision, so please don't hesitate</p>
           
             <form method="post" action="contact">
-              <input type="hidden" name="csrfmiddlewaretoken" value="YgbbVcnT4hKB9K5oFyPcORoYPMaQfSaq9muf6ZNgojwlxOY1AoONFHXhYONWear0"> 
+              <input type="hidden" name="csrfmiddlewaretoken" value=""> 
               <div class="form-group row">
                 <div class="col-md-6 mb-4">
                   <input type="text" class="form-control" placeholder="First name" name='fname' required=True>
