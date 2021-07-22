@@ -1,4 +1,4 @@
-<?php get_header();?>
+<?php wp_header();?>
     <div class="site-section section-1">    
       <div class="container">
         <div class="row">
@@ -20,8 +20,6 @@
                 <li>Web Hosting</li>
               </ul>
             </div>
-
-            
           </div>
 
           <div class="col-lg-6"  data-aos="fade-up" data-aos-delay="100">
@@ -32,7 +30,7 @@
                 <p>Lerato Nursing Agency is a health care recruitment and placement agency whose aim is to provide our clients with experienced and qualified staff </p>
                 <p class="mb-0">Visit <a href="#" class="text-danger">Lerato.co.za</a></p>
               </div>
-              <img src="<php/images/img_1.png" alt="Image" class="img-fluid">
+              <img src="<?php bloginfo('template_directory');?>/images/img_1.png" alt="Image" class="img-fluid">
             </div>
           </div>
         </div>
@@ -56,44 +54,44 @@
         
       <div class="owl-carousel nonloop-block-13">
 
-          <a class="work-thumb" href="/images/lerato2.png" data-fancybox="gallery">
+          <a class="work-thumb" href="<?php bloginfo('template_directory');?>/images/lerato2.png" data-fancybox="gallery">
             <div class="work-text">
               <h3>Lerato</h3>
               <span class="category">Website</span>
             </div>
-            <img src="/images/img_1.png" alt="Image" class="img-fluid">
+            <img src="<?php bloginfo('template_directory');?>/images/img_1.png" alt="Image" class="img-fluid">
           </a> 
           
-          <a class="work-thumb" href="/images/sandile2.jpg" data-fancybox="gallery">
+          <a class="work-thumb" href="<?php bloginfo('template_directory');?>/images/sandile2.jpg" data-fancybox="gallery">
             <div class="work-text">
               <h3>Sandile </h3>
               <span class="category">Website</span>
             </div>
-            <img src="/images/sandile.png" alt="Image" class="img-fluid">
+            <img src="<?php bloginfo('template_directory');?>/images/sandile.png" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="/images/sandile3.png" data-fancybox="gallery">
+          <a class="work-thumb" href="<?php bloginfo('template_directory');?>/images/sandile3.png" data-fancybox="gallery">
             <div class="work-text">
               <h3>Vregga</h3>
               <span class="category">Website & hosting</span>
             </div>
-            <img src="/images/vregga.jpg" alt="Image" class="img-fluid">
+            <img src="<?php bloginfo('template_directory');?>/images/vregga.jpg" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="/images/khux3.jpg" data-fancybox="gallery">
+          <a class="work-thumb" href="<?php bloginfo('template_directory');?>/images/khux3.jpg" data-fancybox="gallery">
             <div class="work-text">
               <h3>Khuxxman</h3>
               <span class="category">Web Development</span>
             </div>
-            <img src="/images/khux1.jpg" alt="Image" class="img-fluid">
+            <img src="<?php bloginfo('template_directory');?>/images/khux1.jpg" alt="Image" class="img-fluid">
           </a>
 
-          <a class="work-thumb" href="/images/vusi.png" data-fancybox="gallery">
+          <a class="work-thumb" href="<?php bloginfo('template_directory');?>/images/vusi.png" data-fancybox="gallery">
             <div class="work-text">
               <h3>Vusi Mhlanga</h3>
               <span class="category">Design & hosting</span>
             </div>
-            <img src="/images/vusi.png" alt="Image" class="img-fluid">
+            <img src="<?php bloginfo('template_directory');?>/images/vusi.png" alt="Image" class="img-fluid">
           </a>
       </div>
     </div>
@@ -228,7 +226,7 @@
 
         <div class="row align-items-center">
           <div class="col-md-5 order-1 order-md-2 mb-5 mb-md-0">
-            <img src="/images/about_1.jpg" alt="Image" class="img-fluid">
+            <img src="<?php bloginfo('template_directory');?>/images/about_1.jpg" alt="Image" class="img-fluid">
           </div>
           <div class="col-md-6 mr-auto order-2 order-md-1">
             
@@ -276,5 +274,4 @@
         </div>
       </div>
     </div>
-
-    <?php get_footer();?>
+    <?php wp_footer();?>
