@@ -1,105 +1,5 @@
 <?php get_header();?>
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
-
-
-  <div class="site-wrap">
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-      
-      <div class="container-fluid">
-        <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="index.html" class="text-uppercase">Ndue</a></div>
-          <div>
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#work-section" class="nav-link">Projects</a></li>
-                <li><a href="#process-section" class="nav-link">Process</a></li>
-                <li><a href="#services-section" class="nav-link">Services</a></li>
-                
-              </ul>
-            </nav>
-          </div>
-          <div class="ml-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-xl-block">
-                <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-                <li class="cta"><a href="#contact-section" class="nav-link"><span class="border bg-danger rounded text-white border-danger">Contact</span></a></li>
-              </ul>
-            </nav>
-            <a href="#" class="d-inline-block d-xl-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
-          </div>
-        </div>
-      </div>
-      
-    </header>
-
-    <div class="intro-section custom-owl-carousel" id="home-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5 mr-auto" data-aos="fade-up">
-            <div class="owl-carousel slide-one-item-alt-text">
-              <div class="slide-text">
-                <h1>I Make Beautiful Websites</h1>
-                <p class="mb-5">
-                  Iam a web developer in South Africa based in Berea. I do website design, web development, seo services, website-maintenance and web applications.
-                </p>
-                <p><a href="#" target="_blank" class="btn btn-outline-light py-3 px-5">Get Started</a></p>
-              </div>
-              <div class="slide-text">
-                <h1>Welcome</h1>
-                <p class="mb-5">I'm Ndumiso a web developer in Berea .</p>
-                <p><a href="#" target="_blank" class="btn btn-outline-light py-3 px-5">Get Started</a></p>
-              </div>
-              <div class="slide-text">
-                <h1>High Quality Websites</h1>
-                <p class="mb-5">We go an extra mile to get the design right and exactly as per your requirements..</p>
-                <p><a href="#" target="_blank" class="btn btn-outline-light py-3 px-5">Get Started</a></p>
-              </div>
-              <div class="slide-text">
-                <h1>We do things right.</h1>
-                <p class="mb-5">I make a variety of website design and digital marketing packages that’s tailored to suit your specific business needs.</p>
-                <p><a href="#" target="_blank" class="btn btn-outline-light py-3 px-5">Get Started</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 ml-auto"  data-aos="fade-up" data-aos-delay="100">
-                        
-            <div class="owl-carousel slide-one-item-alt">
-              <img src="/images/vregga.jpg" alt="Image" class="img-fluid">
-              <img src="/images/sandile.png" alt="Image" class="img-fluid">
-              <img src="/images/khux1.jpg" alt="Image" class="img-fluid">
-              <img src="/images/img_1.png" alt="Image" class="img-fluid">
-            </div>
-
-            <div class="owl-custom-direction">
-              <a href="#" class="custom-prev"><span class="icon-keyboard_arrow_left"></span></a>
-              <a href="#" class="custom-next"><span class="icon-keyboard_arrow_right"></span></a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section section-1">
-      
-    
+    <div class="site-section section-1">    
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mr-auto mb-5"  data-aos="fade-up">
@@ -132,7 +32,7 @@
                 <p>Lerato Nursing Agency is a health care recruitment and placement agency whose aim is to provide our clients with experienced and qualified staff </p>
                 <p class="mb-0">Visit <a href="#" class="text-danger">Lerato.co.za</a></p>
               </div>
-              <img src="/images/img_1.png" alt="Image" class="img-fluid">
+              <img src="<php/images/img_1.png" alt="Image" class="img-fluid">
             </div>
           </div>
         </div>
