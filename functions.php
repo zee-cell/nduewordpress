@@ -18,7 +18,7 @@ function load_style_sheets(){
     wp_enqueue_style('jquery-fancy-box');
     wp_register_style('aos', get_template_directory_uri() .'/css/aos.css' array(), 1, 'all');
     wp_enqueue_style('aos');
-    wp_register_style('main-style', get_template_directory_uri() .'/css/stylec.css', array(), 1, 'all');
+    wp_register_style('main-style', get_template_directory_uri() .'/css/style.css', array(), 1, 'all');
     wp_enqueue_style('main-style');
  
 
