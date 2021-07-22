@@ -46,7 +46,7 @@ function addjs(){
     wp_enqueue_script('jquery-way');
 
     wp_register_script('jquery-sticky', get_template_directory_uri(), .'js/jquery.sticky.js', array(),1,1,1);
-    wp_eenqueue_script('jquery-sticky');
+    wp_enqueue_script('jquery-sticky');
 
   
 }
