@@ -6,7 +6,7 @@ function load_style_sheets(){
     wp_enqueue_style('font');
     wp_register_style('bootsrap', get_template_directory_uri() .'/css/bootstrap.min.css', array(), 1, 'all');
     wp_enqueue_style('bootsrap');
-    wp_register_style('jquery', get_template_directory_uri() .'/css/jquery-ui.css' array(), 1, 'all');
+    wp_register_style('jquery', get_template_directory_uri() .'/css/jquery-ui.css', array(), 1, 'all');
     wp_enqueue_style('jquery');
     wp_register_style('owl_theme', get_template_directory_uri() .'/css/owl.carousel.min.css', array(), 1, 'all');
     wp_enqueue_style('owl_theme');
